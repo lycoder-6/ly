@@ -1,0 +1,109 @@
+nav{
+	background-image: url(./images/sunset-4086848_1280.jpg);
+    border-radius: 10px;
+}
+body{
+    background-image: linear-gradient(to right,#fbc2eb,#a6c1ee);
+    position: relative;
+}
+.container-fluid h1{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.detail{
+    background-color: #f2f2f2;
+    height: 400px;
+    position: relative;
+}
+.detail div{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    line-height: 28px;
+    color: #7a7a7a;
+    width: 730px;
+    margin: 10px auto;
+}
+.img1{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+.img2{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+.foot{
+    margin: 50px auto;
+}
+.foot p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.row-cols-4 img{
+    border-radius: 50%;
+}
+.col{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button2{
+    position: absolute;
+    right: 10%;
+    bottom: -1%;
+}
+.button1{
+    position: absolute;
+    left: 10%;
+    bottom: -1%;
+}
+.paragraph{
+    text-indent: 4em;
+}
+.button1 button{
+    width: 170px;
+    height:60px;
+    border-radius: 50px;
+}
+.button2 button{
+    width: 170px;
+    height:60px;
+    border-radius: 50px;
+}
+.col{
+    position:relative;
+    overflow: hidden;
+}
+.col .item-mask{
+    width:200px;
+    height:200px;
+    background-color: rgba(0,0,0,0);
+    position:absolute;
+    top:0px;
+    left:65px;
+    border-radius: 50%;
+    transition: background-color ease .5s;
+}
+.col .item-title{
+    position:absolute;
+    left:140px;
+    top:-50px;
+    color:white;
+    font-size:30px;
+    font-weight: bold;
+    transition:all ease .5s;
+}
+.col:hover .item-mask{
+    background-color: rgba(0,0,0,0.5);
+}
+.col:hover .item-title{
+    top:75px;
+}
+.last{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
